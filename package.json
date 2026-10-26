@@ -1,0 +1,11 @@
+{
+  "name": "golden-kog-risk-debate",
+  "version": "1.0.0",
+  "description": "Two sided structural risk debate for a token, for Golden Kog. A risk tool, not a trading tool.",
+  "type": "module",
+  "main": "src/debate.ts",
+  "exports": { ".": "./src/debate.ts" },
+  "scripts": { "test": "node --experimental-strip-types harness.mjs" },
+  "engines": { "node": ">=22" },
+  "license": "Apache-2.0"
+}
